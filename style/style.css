@@ -27,7 +27,7 @@ html {
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 720px;
     background-color: var(--verylightgray_bg_headings_btn);
 }
 
@@ -128,5 +128,5 @@ h2.car_class {
 
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }

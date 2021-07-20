@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --brightorange: hsl(31, 77%, 52%);
+    --darkcyan: hsl(184, 100%, 22%);
+    --verydarkcyan: hsl(179, 100%, 13%);
+    --transparentwhite_para: hsla(0, 0%, 100%, 0.75);
+    --verylightgray_bg_headings_btn: hsl(0, 0%, 95%);
+
+    --ff_lexend: 'Lexend Deca', sans-serif;
+    --ff_big_shoulder: 'Big Shoulders Display', cursive;
+
+    --bradius: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first, .second, .third {
+    width: 19%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 3%;
+}
+
+.first {
+    background-color: var(--brightorange);
+    border-radius: var(--bradius) 0 0 var(--bradius);
+}
+
+.second {
+    background-color: var(--darkcyan);
+}
+
+.third {
+    background-color: var(--verydarkcyan);
+    border-radius: 0 var(--bradius) var(--bradius) 0;
+}
+
+h2.car_class {
+    text-transform: uppercase;
+    font-family: var(--ff_big_shoulder);
+    font-size: 2.2rem;
+    color: var(--verylightgray_bg_headings_btn);
+}
+
+.description {
+    font-family: var(--ff_lexend);
+    font-size: 1rem;
+    color: var(--transparentwhite_para);
+    line-height: 1.5rem;
+
+}
+
+.action {
+    padding: 8% 15%;
+    background-color: var(--verylightgray_bg_headings_btn);
+    border-radius: 25px;
+    font-family: var(--ff_lexend);
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.action--brightorange{
+    color: var(--brightorange);
+}
+
+.action--darkcyan{
+    color: var(--darkcyan);
+}
+
+.action--verydarkcyan{
+    color: var(--verydarkcyan);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

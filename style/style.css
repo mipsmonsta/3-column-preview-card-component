@@ -90,16 +90,28 @@ h2.car_class {
     font-size: 1rem;
 }
 
-.action--brightorange{
+.action:hover {
+    background-color: transparent;
+    border: 1px solid var(--verylightgray_bg_headings_btn);
+}
+
+
+.action--brightorange {
     color: var(--brightorange);
 }
 
-.action--darkcyan{
+.action--darkcyan {
     color: var(--darkcyan);
 }
 
-.action--verydarkcyan{
+.action--verydarkcyan p{
     color: var(--verydarkcyan);
+}
+
+
+.action:hover >  p {
+    color: var(--verylightgray_bg_headings_btn);
+;
 }
 
 /*************Media Query****************/
